@@ -1,0 +1,170 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+
+}
+body{
+ 
+    /*background-color: #ececec;*/
+    background-image:url('../img/website.jpg');
+    background-attachment: fixed;
+}
+.form-box
+{
+   
+    width: 300px;
+
+	height: 364px;
+
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    
+    display: grid;
+
+	position:absolute;
+	 
+   left: 50%;
+
+   top: 50%;
+
+   transform: translate(-50%, -50%);
+
+   place-items: 	center;
+
+   border:1px solid #ececec;
+
+   border-radius: 15px;
+
+   background-color: white;
+	
+}
+
+.main-heading
+
+{
+
+    color: 	#003300;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 28px auto 100px;
+
+	padding: 44px;
+
+    text-align: center;
+   
+}
+
+.form input
+
+{
+
+	font-family: cursive;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 15px;
+
+	font-size: 14px;
+
+}
+
+.form button
+
+{
+
+	font-family: sans-serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 10px;
+
+    border: none;
+
+    background: linear-gradient(#3c3ce4, #65f1c7);
+
+
+}
+
+.form button
+{
+
+ /*border: .1rem solid black;*/
+
+    border-radius: 15px;
+
+    background-color: transparent;
+
+    color: #ececec	;
+}
+
+/*.form button:hover
+{
+	background: #0f8a9d;
+    background: linear-gradient(57deg, #b3b3ff , #999999); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+*/
+.form .message
+
+{
+
+    font-size: 12px;
+
+	margin: 15px 0 0;
+
+    color: white;
+
+}
+
+.form .message a
+
+{
+
+	color: orangered;
+
+	text-decoration: none;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+@media (max-width: 302px)
+{
+    .form-box
+    {
+      width: 255px;
+      height: 436px;
+    }
+  }
